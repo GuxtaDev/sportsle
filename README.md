@@ -45,4 +45,4 @@ Atuei principalmente no banco de dados e na documentação do projeto, além de 
 
 O Sportsle.games foi feito em equipe. Este repositório reúne o projeto na minha conta, para fins de portfólio.
 
-O repositório original, onde o código foi mantido durante o desenvolvimento, é do meu colega de equipe Arthur Bressan: Arthur-Bressan/Sportle.
+O repositório original, onde o código foi mantido durante o desenvolvimento, é do meu colega de equipe Arthur Bressan: https://github.com/Arthur-Bressan/Sportle .
