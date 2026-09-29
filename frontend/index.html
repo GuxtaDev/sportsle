@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleluis.css">
+    <link rel="icon" href="img/1731774284320.webp">
+
+    <script src="fundo.js"></script>
+    <script src="traducaoIndex.js" defer></script> <!-- Adicione 'defer' para garantir que o script carregue depois do HTML -->
+    
+    <title id="title">Sportsle</title>
+</head>
+<body>
+    <div class="background">
+        <div class="logo">
+            <img src="imgs/logo_sportsle.png" alt="LOGO" height="250px">
+        </div>
+
+        <!-- Seletor de Idioma -->
+        <div id="language-selector">
+            <label for="language">Idioma: </label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="pt">Português</option>
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#SNCT">SNCT</a></li>
+                <li><a href="#about-us">SOBRE NÓS</a></li>
+                <li><a href="#jogo">JOGO</a></li>
+            </ul>
+        </nav>
+
+        <div class="game" id="about-us">
+            <h1 id="about-us-title">Sobre nós</h1>
+            <h3 id="about-us-subtitle">Nossa ideia e objetivos</h3>
+            <p id="about-us-content">
+                O Sportsle é um projeto integrador desenvolvido pelos alunos da turma de informática 2022. 
+                O Sportsle foi criado com o objetivo de desafiar os usuários a identificar atletas a partir de dicas progressivas.
+            </p>
+        </div> 
+
+        <div class="game" id="SNCT">
+            <h1 id="snct-title">Semana Nacional Ciência e Tecnologia 2024</h1>
+            <h3 id="snct-subtitle">Objetivo do Projeto</h3>
+            <p id="snct-content">
+                A Semana Nacional de Ciência e Tecnologia 2024 (SNCT) é um evento anual em nossa escola, onde os alunos apresentam seus projetos.
+            </p>
+        </div>
+
+        <div class="game" id="jogo">
+            <h1 id="game-title">Jogo</h1>
+            <a href="daily.html" class="btn btn-1" id="game-button">
+                Acesse o jogo
+                <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+                </svg>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
